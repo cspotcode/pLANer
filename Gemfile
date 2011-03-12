@@ -5,15 +5,8 @@ gem 'rails', '3.0.5'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-#BRENDAN EDIT START
-
-#Commented this line out
-#gem 'sqlite3'
-
-#Added this line
+# Java Sqlite3.  Must be changed for production
 gem 'activerecord-jdbcsqlite3-adapter'
-
-#BRENDAN EDIT END
 
 # Use unicorn as the web server
 # gem 'unicorn'
