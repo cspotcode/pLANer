@@ -5,8 +5,21 @@ gem 'rails', '3.0.5'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-# Java Sqlite3.  Must be changed for production
+
+
+# Java JDBC Sqlite3.  Must be changed for production.
 gem 'activerecord-jdbcsqlite3-adapter'
+
+# Cancan authorization library
+gem 'cancan'
+
+# Devise authentication library
+gem 'devise'
+
+
+# ===================================
+# DEFAULT RAILS EXAMPLE DOCUMENTATION
+# ===================================
 
 # Use unicorn as the web server
 # gem 'unicorn'
